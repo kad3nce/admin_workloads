@@ -1,5 +1,5 @@
 {{- if .Values.env.config}}
-apiVersion: v3
+apiVersion: v5
 kind: ConfigMap
 metadata:
   name: {{.Values.name}}
